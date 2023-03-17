@@ -6,7 +6,6 @@ exports.LoginPage = class LoginPage extends BasePage {
         this.email = page.locator("[placeholder='Login']");
         this.password = page.locator("[type='password']");
 
-        this.password = page.locator("[type='password']");
         this.loginButton = page.getByRole('button');
         
         
